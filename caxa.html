@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="limtaek">
+    <meta name="description" content="Portfolio, Flex, caxa UI">
+    <title>Portfolio, Flex, caxa UI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./montblanc_images/favicon/montblanc_fav32.png">
+    <link rel="apple-touch-icon=precomposed" href="./montblanc_images/favicon/montblanc_fav144.png">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 페이지 css -->
+    <!-- js 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/prefixfree.min/prefixfree.min.js"></script>
+    <!-- 페이지 js -->
+    <script src="./js/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" href="./css/caxa.css">
+    
+</head>
+<script>
+    
+</script>
+<body>
+    <div id="wrap">
+        <!-- Aside SNB -->
+        <aside>
+            <div class="top_sub w1300">
+                <p>
+                    로그인하면 확인되는 차별화된 회원가!
+                </p>
+                <p>
+                    <a href="#">혜택확인하기</a> &nbsp;&nbsp;
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </p>
+                <p>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </p>
+            </div>
+        </aside>
+        <!-- /Aside SNB -->
+
+        <!-- header -->
+        <header>
+            <div class="lnb_all">
+                <!-- logo area +lnb menu -->
+                <div class="root_lnb w1300">
+                    <!-- logo area -->
+                    <h1>
+                        ONE FABRIC
+                    </h1>
+                    <!-- /logo area -->
+
+                    <!-- lnb menu -->
+                    <nav class="local">
+                        <ul class="lnb">
+                            <li><a href="#">마이페이지<i class="fa fa-user" aria-hidden="true"></i></a></li>
+                            <li><a href="#">쇼핑백<i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                    </nav>
+                    <!-- /lnb menu -->
+                </div>
+                <!-- /logo area +lnb menu -->
+            </div>
+            <!-- gnb menu -->
+            <div class="gnb_all">
+                <div class="w1300">
+                    <nav class="global">
+                        <h2><a href="#">ONE<br>FABRIC</a></h2>
+                        <ul class="gnb">
+                            <li class="hamburger"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+                            <li class="brand">브랜드<i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                            <li><a href="#">여성</a></li>
+                            <li><a href="#">남성</a></li>
+                            <li><a href="#">잡화/슈즈</a></li>
+                            <li><a href="#">명품</a></li>
+                            <li><a href="#">골프/스포츠</a></li>
+                            <li><a href="#">뷰티</a></li>
+                            <li><a href="#">기획전/혜택</a></li>
+                            <li class="no_mr"><a href="#">Style</a></li>
+                        </ul>
+                        <ul class="gnb2">
+                            <li class="no_ml"><a href="#">이벤트</a></li>
+                            <li><a href="#">미디어</a></li>
+                            <li><a href="#">기업소개</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="snb1">
+                <dt>여성의류
+                    <dl class="snb1_1">
+                        <dt>자켓/코트
+                            <dl class="snb1_2">
+                                <dd>코트</dd>
+                                <dd>트렌치코트</dd>
+                                <dd>자켓</dd>
+                            </dl>
+                        </dt>
+                        <dt>점퍼/베스트
+                            <dl class="snb1_2">
+                                <dd>점버</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>니트/가디건
+                            <dl class="snb1_2">
+                                <dd>터틀넥</dd>
+                                <dd>가디건</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>셔츠/블라우스
+                            <dl class="snb1_2">
+                                <dd>셔츠</dd>
+                                <dd>블라우스</dd>
+                                <dd>스웨트 셔츠</dd>
+                                <dd>슬리브 리스</dd>
+                            </dl>
+                        </dt>
+                        <dt>티셔츠
+                            <dl class="snb1_2">
+                                <dd>긴팔 티셔츠</dd>
+                                <dd>반팔 티셔츠</dd>
+                                <dd>후드 티셔츠</dd>
+                            </dl>
+                        </dt>
+                        <dt>원피스
+                            <dl class="snb1_2">
+                                <dd>반팔</dd>
+                                <dd>긴팔</dd>
+                                <dd>민소매</dd>
+                                <dd>점프수트</dd>
+                            </dl>
+                        </dt>
+                        <dt>팬츠
+                            <dl class="snb1_2">
+                                <dd>롱 팬츠</dd>
+                                <dd>하프 팬츠</dd>
+                                <dd>숏츠</dd>
+                                <dd>데님</dd>
+                                <dd>배기 팬츠</dd>
+                                <dd>스트레이트 팬츠</dd>
+                                <dd>스키니 팬츠</dd>
+                                <dd>슬렉스</dd>
+                                <dd>레깅스</dd>
+                            </dl>
+                        </dt>
+                        
+                    </dl>
+                </dt>
+                <dt>남성의류
+                    <dl class="snb1_1">
+                        <dt>티셔츠
+                            <dl class="snb1_2">
+                                <dd>반팔</dd>
+                                <dd>민소매</dd>
+                                <dd>긴팔</dd>
+                                <dd>스웻셔츠/맨투맨</dd>
+                                <dd>후드</dd>
+                            </dl>
+                        </dt>
+                        <dt>점퍼
+                            <dl class="snb1_2">
+                                <dd>다운/패딩</dd>
+                                <dd>가죽</dd>
+                                <dd>바람막이</dd>
+                                <dd>야상/사파리</dd>
+                                <dd>캐쥬얼 점퍼</dd>
+                                <dd>무스탕</dd>
+                            </dl>
+                        </dt>
+                        <dt>니트/스웨터
+                            <dl class="snb1_2">
+                                <dd>라운드넥</dd>
+                                <dd>터틀넥</dd>
+                                <dd>브이넥</dd>
+                            </dl>
+                        </dt>
+                        <dt>가디건
+                            <dl class="snb1_2">
+                                <dd>기본 가디건</dd>
+                                <dd>롱 가디건</dd>
+                                <dd>집업</dd>
+                            </dl>
+                        </dt>
+                        <dt>코트
+                            <dl class="snb1_2">
+                                <dd>트렌치</dd>
+                                <dd>울/캐시미어</dd>
+                                <dd>하프</dd>
+                                <dd>롱</dd>
+                            </dl>
+                        </dt>
+                        <dt>셔츠
+                            <dl class="snb1_2">
+                                <dd>반팔</dd>
+                                <dd>솔리드</dd>
+                                <dd>린넨</dd>
+                                <dd>긴팔</dd>
+                                <dd>체크</dd>
+                            </dl>
+                        </dt>
+                        <dt>팬츠
+                            <dl class="snb1_2">
+                                <dd>하프 팬츠</dd>
+                                <dd>롱</dd>
+                                <dd>데님</dd>
+                                <dd>린넨</dd>
+                                <dd>면</dd>
+                                <dd>모직</dd>
+                                <dd>슬렉스</dd>
+                            </dl>
+                        </dt>
+                    </dl>
+                </dt>
+                <dt>여성가방/잡화
+                    <dl class="snb1_1">
+                        <dt>자켓/코트
+                            <dl class="snb1_2">
+                                <dd>코트</dd>
+                                <dd>트렌치코트</dd>
+                                <dd>자켓</dd>
+                            </dl>
+                        </dt>
+                        <dt>점퍼/베스트
+                            <dl class="snb1_2">
+                                <dd>점버</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>니트/가디건
+                            <dl class="snb1_2">
+                                <dd>터틀넥</dd>
+                                <dd>가디건</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>셔츠/블라우스
+                            <dl class="snb1_2">
+                                <dd>셔츠</dd>
+                                <dd>블라우스</dd>
+                                <dd>스웨트 셔츠</dd>
+                                <dd>슬리브 리스</dd>
+                            </dl>
+                        </dt>
+                        <dt>티셔츠
+                            <dl class="snb1_2">
+                                <dd>긴팔 티셔츠</dd>
+                                <dd>반팔 티셔츠</dd>
+                                <dd>후드 티셔츠</dd>
+                            </dl>
+                        </dt>
+                        <dt>원피스
+                            <dl class="snb1_2">
+                                <dd>반팔</dd>
+                                <dd>긴팔</dd>
+                                <dd>민소매</dd>
+                                <dd>점프수트</dd>
+                            </dl>
+                        </dt>
+                        <dt>팬츠
+                            <dl class="snb1_2">
+                                <dd>롱 팬츠</dd>
+                                <dd>하프 팬츠</dd>
+                                <dd>숏츠</dd>
+                                <dd>데님</dd>
+                                <dd>배기 팬츠</dd>
+                                <dd>스트레이트 팬츠</dd>
+                                <dd>스키니 팬츠</dd>
+                                <dd>슬렉스</dd>
+                                <dd>레깅스</dd>
+                            </dl>
+                        </dt>
+                        
+                    </dl>
+                </dt>
+                <dt>남성가방/잡화
+                    <dl class="snb1_1">
+                        <dt>자켓/코트
+                            <dl class="snb1_2">
+                                <dd>코트</dd>
+                                <dd>트렌치코트</dd>
+                                <dd>자켓</dd>
+                            </dl>
+                        </dt>
+                        <dt>점퍼/베스트
+                            <dl class="snb1_2">
+                                <dd>점버</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>니트/가디건
+                            <dl class="snb1_2">
+                                <dd>터틀넥</dd>
+                                <dd>가디건</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>셔츠/블라우스
+                            <dl class="snb1_2">
+                                <dd>셔츠</dd>
+                                <dd>블라우스</dd>
+                                <dd>스웨트 셔츠</dd>
+                                <dd>슬리브 리스</dd>
+                            </dl>
+                        </dt>
+                        <dt>티셔츠
+                            <dl class="snb1_2">
+                                <dd>긴팔 티셔츠</dd>
+                                <dd>반팔 티셔츠</dd>
+                                <dd>후드 티셔츠</dd>
+                            </dl>
+                        </dt>
+                        <dt>원피스
+                            <dl class="snb1_2">
+                                <dd>반팔</dd>
+                                <dd>긴팔</dd>
+                                <dd>민소매</dd>
+                                <dd>점프수트</dd>
+                            </dl>
+                        </dt>
+                        <dt>팬츠
+                            <dl class="snb1_2">
+                                <dd>롱 팬츠</dd>
+                                <dd>하프 팬츠</dd>
+                                <dd>숏츠</dd>
+                                <dd>데님</dd>
+                                <dd>배기 팬츠</dd>
+                                <dd>스트레이트 팬츠</dd>
+                                <dd>스키니 팬츠</dd>
+                                <dd>슬렉스</dd>
+                                <dd>레깅스</dd>
+                            </dl>
+                        </dt>
+                        
+                    </dl>
+                </dt>
+                <dt>여성시계/쥬얼리
+                    <dl class="snb1_1">
+                        <dt>자켓/코트
+                            <dl class="snb1_2">
+                                <dd>코트</dd>
+                                <dd>트렌치코트</dd>
+                                <dd>자켓</dd>
+                            </dl>
+                        </dt>
+                        <dt>점퍼/베스트
+                            <dl class="snb1_2">
+                                <dd>점버</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>니트/가디건
+                            <dl class="snb1_2">
+                                <dd>터틀넥</dd>
+                                <dd>가디건</dd>
+                                <dd>베스트</dd>
+                            </dl>
+                        </dt>
+                        <dt>셔츠/블라우스
+                            <dl class="snb1_2">
+                                <dd>셔츠</dd>
+                                <dd>블라우스</dd>
+                                <dd>스웨트 셔츠</dd>
+                                <dd>슬리브 리스</dd>
+                            </dl>
+                        </dt>
+                        <dt>티셔츠
+                            <dl class="snb1_2">
+                                <dd>긴팔 티셔츠</dd>
+                                <dd>반팔 티셔츠</dd>
+                                <dd>후드 티셔츠</dd>
+                            </dl>
+                        </dt>
+                        <dt>원피스
+                            <dl class="snb1_2">
+                                <dd>반팔</dd>
+                                <dd>긴팔</dd>
+                                <dd>민소매</dd>
+                                <dd>점프수트</dd>
+                            </dl>
+                        </dt>
+                        <dt>팬츠
+                            <dl class="snb1_2">
+                                <dd>롱 팬츠</dd>
+                                <dd>하프 팬츠</dd>
+                                <dd>숏츠</dd>
+                                <dd>데님</dd>
+                                <dd>배기 팬츠</dd>
+                                <dd>스트레이트 팬츠</dd>
+                                <dd>스키니 팬츠</dd>
+                                <dd>슬렉스</dd>
+                                <dd>레깅스</dd>
+                            </dl>
+                        </dt>
+                        
+                    </dl>
+                </dt>
+                <dt>남성시계/쥬얼리</dt>
+                <dt>여성슈즈</dt>
+                <dt>스포츠/레져</dt>
+                <dt>남성슈즈</dt>
+                <dt>골프</dt>
+                <dt>명품</dt>
+                <dt>유아동</dt>
+                <dt>가전디지털</dt>
+                <dt>가구/홈데코</dt>
+                <dt>키친/생활</dt>
+                <dt>뷰티</dt>
+            </div>
+            <div class="snb2">
+                <div>
+                    <div><img src="./images/snb/1.png" alt=""></div>
+                    <div><img src="./images/snb/2.png" alt=""></div>
+                    <div><img src="./images/snb/3.png" alt=""></div>
+                    <div><img src="./images/snb/4.png" alt=""></div>
+                </div>
+                <ul>
+                    <li><a href="#">HAZZYS</a></li>
+                    <li><a href="#">DAKS</a></li>
+                    <li><a href="#">JILLSTUART</a></li>
+                    <li><a href="#">NEW YORK</a></li>
+                    <li><a href="#">JILLSTUART</a></li>
+                    <li><a href="#">VANESSABRUNO</a></li>
+                    <li><a href="#">가스트로박</a></li>
+                    <li><a href="#">골든구스</a></li>
+                    <li><a href="#">구찌</a></li>
+                    <li><a href="#">까르뱅</a></li>
+                    <li><a href="#">나이키</a></li>
+                    <li><a href="#">넘버21</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">닥스</a></li>
+                    <li><a href="#">라푸마</a></li>
+                    <li><a href="#">듀얼릿</a></li>
+                    <li><a href="#">라움</a></li>
+                    <li><a href="#">라움 보야지</a></li>
+                    <li><a href="#">레오나드</a></li>
+                    <li><a href="#">루이비통</a></li>
+                    <li><a href="#">마에스트로</a></li>
+                    <li><a href="#">몽블랑</a></li>
+                    <li><a href="#">몽클레어</a></li>
+                    <li><a href="#">바네사</a></li>
+                    <li><a href="#">바쉬</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">발렌시아가</a></li>
+                    <li><a href="#">버버리</a></li>
+                    <li><a href="#">버켄스탁</a></li>
+                    <li><a href="#">보테가 베네타</a></li>
+                    <li><a href="#">봉통</a></li>
+                    <li><a href="#">불리</a></li>
+                    <li><a href="#">블랙야크</a></li>
+                    <li><a href="#">빈스</a></li>
+                    <li><a href="#">생로랑</a></li>
+                    <li><a href="#">설화수</a></li>
+                    <li><a href="#">쉬즈미스</a></li>
+                    <li><a href="#">아디다스</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">알레그리</a></li>
+                    <li><a href="#">MSGM</a></li>
+                    <li><a href="#">예작</a></li>
+                    <li><a href="#">OIOI</a></li>
+                    <li><a href="#">조셉</a></li>
+                    <li><a href="#">질스튜어트</a></li>
+                    <li><a href="#">챔피온</a></li>
+                    <li><a href="#">콜한</a></li>
+                    <li><a href="#">키르시</a></li>
+                    <li><a href="#">탐스</a></li>
+                    <li><a href="#">TNGT</a></li>
+                    <li><a href="#">판도라</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">포트메리온</a></li>
+                    <li><a href="#">프라다</a></li>
+                    <li><a href="#">프라이데이</a></li>
+                    <li><a href="#">핏플랍</a></li>
+                    <li><a href="#">핸즈인더포켓</a></li>
+                    <li><a href="#">헤지스</a></li>
+                </ul>
+            </div>
+            <!-- /gnb menu -->
+        </header>
+        <!-- /header -->
+
+        <!-- slider -->
+        <article>
+            <div class="slider">
+                <div>
+                    <p>WOMAN</p>
+                    <h2>2022 베스트<br>연말결산</h2>
+                    <p>리뷰 아이템 모아보기</p>
+                </div>
+                <div>
+                    <p>LUXURY</p>
+                    <h2>명품<br>하나만 산다면?</h2>
+                    <p>클래식 럭셔리의 모든것</p>
+                </div>
+                <div>
+                    <p>LIVING</p>
+                    <h2>일상에<br>작은 포인트</h2>
+                    <p>귀염뽀짝 디자인 리빙 아이템</p>
+                </div>
+                <div>
+                    <p>GOLF</p>
+                    <h2>골프웨어도<br>패셔너블하게</h2>
+                    <p>BING 파격세일</p>
+                </div>
+                <div>
+                    <p>KIDS</p>
+                    <h2>2022<br>키즈 어워드</h2>
+                    <p>한 해 동안 가장 빛났던 상품</p>
+                </div>
+                <div>
+                    <p>SPORTS</p>
+                    <h2>2022<br>베스트 아이템</h2>
+                    <p>스포츠 & 아웃도어 인기상품</p>
+                </div>
+            </div>
+        </article>
+        <!-- /slider -->
+
+        <!-- contents -->
+        <main role="main">
+            
+            <div class="section1_title w1300">
+                <p><span>HOT!</span> 트렌드</p>
+                <h2>카테고리별 <span>추천 상품</span></h2>
+            </div>
+            <!-- section 01 -->
+            <section class="md_pick w1300">
+                <h2>
+                    <div class="section1_left">
+                        <h4>여성패션</h4>
+                        <p>바로가기 ></p>
+                        <h5>HOT 키워드</h5>
+                        <div>
+                            <button>#반팔티셔츠</button>
+                            <button>#원피스</button>
+                            <button>#청바지</button>
+                            <button>#선물</button>
+                            <button>#에코백</button>
+                        </div>
+                    </div>
+                    <div class="slider2">
+                        <div><img src="./images/section/1.jpg" alt=""></div>
+                        <div><img src="./images/section/2.jpg" alt=""></div>
+                        <div><img src="./images/section/3.jpg" alt=""></div>
+                        <div><img src="./images/section/4.jpg" alt=""></div>
+                    </div>
+                </h2>
+                <h3>
+                    <span>판매순위</span>
+                    <div class="md_pick_area">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/section/section1/1.jpg" alt="엠디픽제품01">
+                                    <p>1위</p>
+                                    <p>28,900원</p>
+                                </a>
+                            </li>
+                            <li><a href="#"><img src="./images/section/section1/2.jpg" alt="엠디픽제품01"><p>2위</p><p>43,900원</p></a></li>
+                            <li><a href="#"><img src="./images/section/section1/3.jpg" alt="엠디픽제품01"><p>3위</p><p>19,900원</p></a></li>
+                        </ul>
+                    </div>
+                    <p>
+                        <a href="#">전체상품보기 ></a>
+                    </p>
+                </h3>
+            </section>
+            <section class="md_pick w1300">
+                <h2>
+                    <div class="section1_left">
+                        <h4>남성패션</h4>
+                        <p>바로가기 ></p>
+                        <h5>HOT 키워드</h5>
+                        <div>
+                            <button>#반팔티셔츠</button>
+                            <button>#반바지</button>
+                            <button>#리넨 팬츠</button>
+                            <button>#슬리퍼</button>
+                            <button>#카드지갑</button>
+                        </div>
+                    </div>
+                    <div class="slider2">
+                        <div><img src="./images/section/21.jpg" alt=""></div>
+                        <div><img src="./images/section/22.jpg" alt=""></div>
+                        <div><img src="./images/section/23.png" alt=""></div>
+                        <div><img src="./images/section/24.jpg" alt=""></div>
+                        <div><img src="./images/section/25.jpg" alt=""></div>
+                        <div><img src="./images/section/26.jpg" alt=""></div>
+                    </div>
+                </h2>
+                <h3>
+                    <span>판매순위</span>
+                    <div class="md_pick_area">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/section/section1/1.jpg" alt="엠디픽제품01">
+                                    <p>1위</p>
+                                    <p>25,000원</p>
+                                </a>
+                            </li>
+                            <li><a href="#"><img src="./images/section/section1/2.jpg" alt="엠디픽제품01"><p>2위</p><p>28,900원</p></a></li>
+                            <li><a href="#"><img src="./images/section/section1/3.jpg" alt="엠디픽제품01"><p>3위</p><p>28,900원</p></a></li>
+                        </ul>
+                    </div>
+                    <p>
+                        <a href="#">전체상품보기 ></a>
+                    </p>
+                </h3>
+            </section>
+            <section class="md_pick w1300">
+                <h2>
+                    <div class="section1_left">
+                        <h4>스포츠</h4>
+                        <p>바로가기 ></p>
+                        <h5>HOT 키워드</h5>
+                        <div>
+                            <button>#반한용품/잡화</button>
+                            <button>#등산화</button>
+                            <button>#스포츠양말</button>
+                            <button>#스포츠보호대</button>
+                            <button>#캠핑</button>
+                        </div>
+                    </div>
+                    <div class="slider2">
+                        <div><img src="./images/section/31.jpg" alt=""></div>
+                        <div><img src="./images/section/32.jpg" alt=""></div>
+                        <div><img src="./images/section/33.jpg" alt=""></div>
+                        <div><img src="./images/section/34.jpg" alt=""></div>
+                        <div><img src="./images/section/35.jpg" alt=""></div>
+                        <div><img src="./images/section/36.jpg" alt=""></div>
+                    </div>
+                </h2>
+                <h3>
+                    <span>판매순위</span>
+                    <div class="md_pick_area">
+                        <ul>
+                            <li><a href="#"><img src="./images/section/section1/31.jpg" alt="엠디픽제품01"><p>1위</p><p>678,900원</p></a></li>
+                            <li><a href="#"><img src="./images/section/section1/32.jpg" alt="엠디픽제품01"><p>2위</p><p>544,900원</p></a></li>
+                            <li><a href="#"><img src="./images/section/section1/33.jpg" alt="엠디픽제품01"><p>3위</p><p>68,900원</p></a></li>
+                        </ul>
+                    </div>
+                    <p>
+                        <a href="#">전체상품보기 ></a>
+                    </p>
+                </h3>
+            </section>
+            <!-- /section 01 -->
+            <div class="section1_title w1300">
+                <p><span>행사기간</span> 12/22(목)~12/28(수)</p>
+                <h2>이번주 <span>세일 상품</span></h2>
+            </div>
+            <!-- section 03 -->
+            <section class="caxa w1300">
+                <div class="caxa_sns">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./images/caxa/1.jpg" alt="sns 제품01">
+                            </a>
+                        </li>
+                        <li><a href="#"><img src="./images/caxa/11.png" alt="sns 제품02"></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><img src="./images/caxa/5.jpg" alt="sns 제품03"></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><img src="./images/caxa/12.jpg" alt="sns 제품04"></a></li>
+                        <li><a href="#"><img src="./images/caxa/13.jpg" alt="sns 제품05"></a></li>
+                        <li><a href="#"><img src="./images/caxa/14.jpg" alt="sns 제품06"></a></li>
+                        <li><a href="#"><img src="./images/caxa/15.jpg" alt="sns 제품07"></a></li>
+                        <li><a href="#"><img src="./images/caxa/16.jpg" alt="sns 제품08"></a></li>
+                        <li><a href="#"><img src="./images/caxa/17.jpg" alt="sns 제품09"></a></li>
+                    </ul>
+                </div>
+                <p>
+                    <a href="#">전체상품보기 ></a>
+                </p>
+            </section>
+            <!-- /section 03 -->
+            <!-- section 02 -->
+            <section class="real_title">
+                <h2 class="real_time w1300">
+                    <ul class="yot">
+                        <h3>특별/기획전</h3>
+                        <li class="yot1">#손석구</li>
+                        <li class="yot2">#유아인</li>
+                        <li class="yot3">#김남길</li>
+                        <li class="yot4">#이재욱</li>
+                        <p><span>with</span> One Fabric</p>
+                    </ul>
+                    <figure class="you">
+                        <div class="you1"><iframe width="800" height="450" src="https://www.youtube.com/embed/0328ydjLYFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="you2"><iframe width="800" height="450" src="https://www.youtube.com/embed/Nrh8VUq3CB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="you3"><iframe width="800" height="450" src="https://www.youtube.com/embed/kXV8Olg1AXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="you4"><iframe width="800" height="450" src="https://www.youtube.com/embed/oLFs6_bBXfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    </figure>
+                </h2>
+            </section>
+            <!-- /section 02 -->
+            
+        </main>
+        <!-- /contents -->
+
+        <!-- footer -->
+        <footer>
+            <div class="footer_information w1300">
+                <div class="footer_left">
+                    <nav>
+                        <ul class="footer_gnb">
+                            <li><a href="#">이용약관&nbsp;&nbsp; |</a></li>
+                            <li><a href="#">&nbsp;&nbsp;쇼핑몰&nbsp;이용안내&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;개인정보처리방침&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;고객센터&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;1:1문의&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;매장안내&nbsp;&nbsp;|</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer_info">
+                        <p>
+                            주식회사 원패브릭 | 대표이사 : 양민우 | <br>
+                            사업자등록번호 : 123-45-6789 | 통신판매업신고번호 : 제 2021-서울강남-00123호 <br>
+                            주소 : 서울특별시 도봉구 덕릉로 123 | 대표전화 : 010-5145-1277 | 팩스 : 02-123-4567                                        
+                        </p>
+                        <p class="footer_escrow">
+                            <span>
+                                고객님의 안전거래를 위해 현금 결제시, <br>
+                                구매안전 서비스를 이용하실 수 있습니다 [가입사실확인]
+                            </span>
+                        <p>
+                            Copyright &nbsp; 2022 SymaG., Ltd. ALL Rights Reserved
+                        </p>
+                    </div>
+                </div>
+                <div class="footer_contact">
+                    <dl>
+                        <dt>고객만족센터</dt>
+                        <dd>080-555-9812</dd>
+                        <dd>평일 09:00 ~ 18:00 | 점심 13:00 ~ 14:00</dd>
+                    </dl>
+                    <dl>
+                        <dt>BANK INFO</dt>
+                        <dd>우리은행 1002-552-12345-67</dd>
+                        <dd>예금주:(주)원패브릭</dd>
+                    </dl>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+    </div>
+    <script src="./js/caxa.js"></script>
+</body>
+</html>
