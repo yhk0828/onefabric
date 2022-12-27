@@ -511,26 +511,30 @@ main {}
 /* Section 03 */
 .caxa {
     margin-top: 20px;
-    padding: 20px 0;
-    padding-left: 84px;
+    padding:20px 80px;
     border-top: 2px solid #8596ee;
-    
 }
 .caxa h2 {
     text-align: center;
-    margin-bottom: 44px;
     width:260px;
-    height: 24px;
+    height: 40px;
+    line-height: 40px;
     margin: 0 auto;
+    margin-bottom: 44px;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 45px;
+    color: white;
     font-size: 24px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .caxa_sns ul li a img{
     width: 185px;
     height: 185px;
     z-index: -1;
 }
-
-
 
 .caxa_sns ul:nth-child(2) li a img{
     width: 375px;
@@ -571,8 +575,8 @@ main {}
 }
 .caxa p {
     text-align: right;
-    padding-right: 80px;
     margin-top: 28px;
+    font-size: 14px;
 }
 /* footer */
 footer {

@@ -16,6 +16,26 @@ $(document).ready(function () {
         margin:0,
         padding:0,
     });
+    const remainTime = document.querySelector("#sale");
+
+    function Day() {
+        const LastTime = new Date("2023-1-1");
+        const todayTime = new Date();
+        
+        const term = LastTime - todayTime;
+        
+        const Day = String(Math.floor(term / (1000*60*60*24)));
+        const Hour =String( Math.floor((term / (1000*60*60)) % 24)).padStart(2,"0");
+        const Min = String(Math.floor((term / (1000*60)) % 60)).padStart(2,"0");
+        const Sec = String(Math.floor(term / 1000 % 60)).padStart(2,"0");
+        
+        remainTime.innerText = `${Day} : ${Hour} : ${Min} : ${Sec}`;
+    }
+
+    Day();
+    setInterval(Day, 1000);
+
+
     $('.yot > li').on('click',function(){
         $('.yot > li').css('background-color','transparent');
         //회색
