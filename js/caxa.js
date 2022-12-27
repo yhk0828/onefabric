@@ -39,13 +39,16 @@ $(document).ready(function () {
         $('.you').children().css('display','none');
         $('.you4').show();
     });
+    /* aside */
     $('.top_sub p i').on('click',function(){
         $('aside').slideUp();
     });
     /*햄버거메뉴*/
-    $('.snb1,.brand').on('mouseleave',function(){
+    /* snb 없애는 기능*/
+    $('body').on('click',function(){
         $('.snb1,.snb2').hide();
     });
+    
     $('.hamburger').on('mouseenter',function(){
         $('.snb2').hide();
         $('.snb1').show();
@@ -57,6 +60,9 @@ $(document).ready(function () {
     $('.snb1 dt,.snb1 dd').on('mouseenter',function(){
         $(this).css({"background-color":"whitesmoke"});
         $(this).children().show();
+    });
+    $('.snb1,.snb2').on('mouseleave',function(){
+        $('.snb1,.snb2').hide();
     });
     /*브랜드 메뉴*/
     $('.brand').on('mouseenter',function(){
